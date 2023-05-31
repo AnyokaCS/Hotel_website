@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mount View Resort</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img decoding="async" src="images/logo.png" class="img-fluid" alt="logo" width="50" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rooms.html">Rooms</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit -->
+    
+<audio id="myAudio">
+  <source src="music/famy-ava.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper p-0">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url('images/bg.jpg');">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>Welcome to Mount View Resort</h1>
+                            <p>All the comforts of a private residence, all the variety of a resort.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('images/bg2.jpg');">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>Your Holiday starts here</h1>
+                            <p>The Mont Cervin Palace is part of Zermatt – and Zermatt is part of the Mont Cervin Palace.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+            <div class="swiper-pagination"></div>
+        
+        <div class="container booking-area">
+            <form class="row" id="bookingForm">
+                <div class="col-lg mb-3 mb-lg-0">
+                    <input type="date" class="form-control" placeholder="Date" id="checkInDate" min="" required>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <input type="date" class="form-control" placeholder="Date" id="checkOutDate" min="" required>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <select class="form-select" id="adultsCount">
+                        <option selected>Adults</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <select class="form-select" id="childrenCount">
+                        <option selected>Children</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <button type="submit" class="main-btn rounded-2 px-lg-3">Check Availability</button>
+                </div>
+            </form>
+        </div>
+             
+    <section>
+    <!-- Banner section exit -->
+    
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row flex-lg-row flex-column-reverse ">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h3>Welcome to <span>Hotel <br class="d-none d-lg-block">
+                        Mount View Resort</span> of your weekend</h3>
+                    <p>Experiences at the foot of a glacier, on a green alpine meadow, at an idyllic mountain lake. The air is crystal clear. The view of the world famous Matterhorn The windows of the Mont Cervin Palace cast a warm glow against the darkening skies. You enter our hotel and our staff warmly welcomes you. For us that means: No empty phrases, no fuss – just heartfelt hospitality. A smile surrounds you. You have arrived.</p>
+                    
+                    <a href="contact.html" class="main-btn mt-4">Contact</a>
+                </div>
+                <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+                    <img decoding="async" src="images/pic1.jpg" class="img-fluid" alt="About Us">
+                </div>                
+            </div>
+        </div>
+    </section>
+    <!-- About section exit -->
+
+    <div class="container marketing">
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <img src="images/res.jpg" class="bd-placeholder-img rounded-circle mt-4 mb-4" width="140" height="140" alt="Restaurant">
+    
+                <h2>Restaurants & Bars</h2>
+                <p>We are really passionate about culinary delights. Experience more than 15 restaurants and bars in Zermatt with our Wine & Dine offer.</p>
+    
+            </div>
+            <div class="col-lg-4 text-center">
+                <img src="images/room.jpg" class="bd-placeholder-img rounded-circle mt-4 mb-4" width="140" height="140" alt="Rooms">
+    
+                <h2>Rooms & Suites</h2>
+                <p>All our rooms and suites feature the same attention to detail – and they all offer breathtaking views of the Matterhorn or the majestic snow-capped Swiss Alps.</p>
+    
+            </div>
+            <div class="col-lg-4 text-center">
+                <img src="images/spa.jpg" class="bd-placeholder-img rounded-circle mt-4 mb-4" width="140" height="140" alt="Spa">
+    
+                <h2>Spa Nescens</h2>
+                <p>The Spa Nescens at the Mont Cervin Palace cover an area of 1700 m2 – plenty of space for activity and relaxation, fun and tranquillity.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    
+        <div class="counter mt-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count1"></span>+
+                        </h1>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count2"></span>+
+                            </h2>
+                            <p>New Friendships</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count3"></span>+
+                            </h2>
+                            <p>Five Start Ratings</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count4"></span>+
+                            </h2>
+                            <p>Served Breakfast</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services section Exit -->
+
+    <!-- Team section -->
+    <section id="team" class="team_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>What I can do for you</h6>
+                    <h3>Our Special Staff</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0 rounded-3">
+                        <img decoding="async" src="images/vadim.jpg" class="img-fluid rounded-3" />
+                        <div class="team-info">
+                            <h5>Vadim Shmelev</h5>
+                            <p>Manager</p>
+                            <ul class="social-network">
+                                <li><a href="https://ru-ru.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0 rounded-3">
+                        <img decoding="async" src="images/aida.jpg" class="img-fluid rounded-3" />
+                        <div class="team-info">
+                            <h5>Aida Kerimbayeva</h5>
+                            <p>Chif Reciption Officer</p>
+                            <ul class="social-network">
+                                <li><a href="https://ru-ru.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0 rounded-3">
+                        <img decoding="async" src="Anel2.0.jpg" class="img-fluid rounded-3" />
+                        <div class="team-info">
+                            <h5>Anel Askarova</h5>
+                            <p>Master Chef</p>
+                            <ul class="social-network">
+                                <li><a href="https://ru-ru.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0 rounded-3">
+                        <img decoding="async" src="images/askar.jpg" class="img-fluid rounded-3" />
+                        <div class="team-info">
+                            <h5>Askar Bakeev</h5>
+                            <p>Housekeeping</p>
+                            <ul class="social-network">
+                                <li><a href="https://ru-ru.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section Exit  -->
+
+    
+
+    <!-- Pricing section -->
+    <section id="price" class="price_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>Best & Affordable Price for you</h6>
+                    <h3>Our Pricing - Membership</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Basic</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Flight Ticket(2)</p>
+                            </li>
+                            <li>
+                                <p>Music Concert (30% Off)</p>
+                            </li>
+                            <li>
+                                <p>Restaurant (Snacks)</p>
+                            </li>
+                        </ul>
+                        <hr />
+                        <h3>$129<sub class="fs-6 fw-normal">/NIGHT</sub></h3>
+                        <a href="#" class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Bussiness</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Flight Ticket(4)</p>
+                            </li>
+                            <li>
+                                <p>Music Concert (30% Off)</p>
+                            </li>
+                            <li>
+                                <p>Restaurant (Snacks)</p>
+                            </li>
+                           
+                        </ul>
+                        <hr />
+                        <h3>$399<sub class="fs-6 fw-normal">/NIGHT</sub></h3>
+                        <a href="#" class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Premium</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Flight Ticket(6)</p>
+                            </li>
+                            <li>
+                                <p>Music Concert (50% Off)</p>
+                            </li>
+                            <li>
+                                <p>Restaurant (Snacks)</p>
+                            </li>
+                            
+                        </ul>
+                        <hr />
+                        <h3>$699<sub class="fs-6 fw-normal">/NIGHT</sub></h3>
+                        <a href="#" class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Presedential</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Flight Ticket(12)</p>
+                            </li>
+                            <li>
+                                <p>Music Concert (FREE)</p>
+                            </li>
+                            <li>
+                                <p>Restaurant</p>
+                            </li>
+                           
+                        </ul>
+                        <hr />
+                        <h3>$1290<sub class="fs-6 fw-normal">/NIGHT</sub></h3>
+                        <a href="#" class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <table class="table table-hover table-bordered" style="text-align:center;padding-left:200px; padding-right:200px;">
+        <thead>
+          <tr class="active">
+              <th style="background:#fff"><center></center></th>
+              <th><center><h3>Basic</h3><p class="text-muted text-sm">Ideal for small family.</p></center></th>
+              <th><center><h3>Bussiness</h3><p class="text-muted text-sm">Perfect for larger family.</p></center></th>
+              <th><center><h3>Premiun</h3><p class="text-muted text-sm">Perfect for those who want luxury.</p></center></th>
+              <th><center><h3>Presedential</h3><p class="text-muted text-sm">The best fit for ROYALTY.</p></center></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><br />Price</td>
+            <td><h3 class="panel-title price">$129</h3></td>
+            <td><h3 class="panel-title price">$399</h3></td>
+            <td><h3 class="panel-title price">$699</h3></td>
+            <td><h3 class="panel-title price">$1290</h3></td>
+          </tr>
+          <tr>
+            <td colspan="5" align="left" style="padding-left:20px;" class="active"><b>Features</b></td>
+          </tr>
+          <tr>
+            <td>Guest-support</td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+          </tr>
+          <tr>
+            <td>Mountain Tour</td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+          </tr>
+          <tr>
+            <td>Cab Service</td>
+            <td>-</td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+          </tr>
+                <tr>
+            <td>Concierge Service</td>
+            <td>-</td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+          </tr>
+          <tr>
+            <td>Private Housekeeper</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+          </tr>
+          <tr>
+            <td>Multiple-cuisine dining options</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+          </tr>
+          
+        </tbody>
+      </table>
+    <!-- Pricing Section Exit  -->
+
+
+
+
+    <!--mute-->
+
+    <div class="fixed_block_position">
+	
+	<div class="fixed_block">
+         <button id = "musi">
+<input type="checkbox" id="checkboxInput">
+       
+    <label for="checkboxInput" class="toggleSwitch">
+
+<div class="speaker"  ><svg  id = "mas" xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 75 75">
+<path d="M39.389,13.769 L22.235,28.606 L6,28.606 L6,47.699 L21.989,47.699 L39.389,62.75 L39.389,13.769z" style="stroke:#fff;stroke-width:5;stroke-linejoin:round;fill:#fff;"></path>
+<path d="M48,27.6a19.5,19.5 0 0 1 0,21.4M55.1,20.5a30,30 0 0 1 0,35.6M61.6,14a38.8,38.8 0 0 1 0,48.6" style="fill:none;stroke:#fff;stroke-width:5;stroke-linecap:round"></path>
+</svg></div>
+
+<div class="mute-speaker"><svg id = "mas" version="1.0" viewBox="0 0 75 75" stroke="#fff" stroke-width="5">
+<path d="m39,14-17,15H6V48H22l17,15z" fill="#fff" stroke-linejoin="round"></path>
+<path d="m49,26 20,24m0-24-20,24" fill="#fff" stroke-linecap="round"></path>
+</svg></div>
+
+    </label>
+            </button>
+        </div>
+    </div>
+    
+    <!-- Gallery section -->
+    <section id="gallery" class="gallery_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>Best Pictures Of Our Hotel</h6>
+                    <h3>Our Gallery</h3>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img decoding="async" src="images/im.jpg" class="img-fluid w-100">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img decoding="async" src="images/im1.jpg" class="img-fluid w-100">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img decoding="async" src="images/im2.jpg" class="img-fluid w-100">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img decoding="async" src="images/img3.jpg" class="img-fluid w-100">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-md-6 gallery-item">
+                    <img decoding="async" src="images/im4.jpg" class="img-fluid w-100">
+                    <div class="gallery-item-content"> </div>
+                </div>
+                <div class="col-md-6 gallery-item">
+                    <img decoding="async" src="images/im5.jpg" class="img-fluid w-100">
+                    <div class="gallery-item-content"> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section Exit -->
+
+
+
+
+
+
+
+
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0 container-fluid">
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h5>Hotel Location</h5>
+                    <p class="ps-0">The Mont Cervin Palace is part of Zermatt – and Zermatt is part of the Mont Cervin Palace. This special connection has grown over 160 years. No cars, just tranquillity, clean air and idyllic mountains, all concentrated in the smallest of spaces.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Contact</h5>
+                    <div class="contact-info">
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-home me-3"></i> Bahnhofstrasse 31 CH-3920 Zermatt Switzerland</a></li>
+                            <li><a href="#"><i class="fa fa-phone me-3"></i>+10 367 267 2678</a></li>
+                            <li><a href="#"><i class="fa fa-envelope me-3"></i>info@mountview.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>More Links</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="home.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="room.html">Rooms</a></li>
+                        <li><a href="service.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Stay Connected</h5>
+                    <ul class="social-network d-flex align-items-center p-0">
+                        <li><a href="https://ru-ru.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright-section">
+            <p><a href="#">© 2023 Mount View Resort. All rights reserved.</a></p>
+        </div>
+    </section>
+    
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+<script>// Header Scroll
+     var audio = document.getElementById("myAudio");
+let nav = document.querySelector(".navbar");
+window.onscroll = function () {
+    if (document.documentElement.scrollTop > 50) {
+        nav.classList.add("header-scrolled");
+    } else {
+        nav.classList.remove("header-scrolled");
+    }
+}
+
+// nav hide 
+let navBar = document.querySelectorAll(".nav-link");
+let navCollapse = document.querySelector(".navbar-collapse.collapse");
+navBar.forEach(function (a) {
+    a.addEventListener("click", function () {
+        navCollapse.classList.remove("show");
+    })
+})
+
+// Swiper Slider
+var swiper = new Swiper(".mySwiper", {
+    direction: "vertical",
+    loop: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    autoplay: {
+        delay: 3500,
+    },
+});
+
+// counter design
+document.addEventListener("DOMContentLoaded", () => {
+    function counter(id, start, end, duration) {
+        let obj = document.getElementById(id),
+            current = start,
+            range = end - start,
+            increment = end > start ? 1 : -1,
+            step = Math.abs(Math.floor(duration / range)),
+            timer = setInterval(() => {
+                current += increment;
+                obj.textContent = current;
+                if (current == end) {
+                    clearInterval(timer);
+                }
+            }, step);
+    }
+    counter("count1", 0, 1287, 3000);
+    counter("count2", 100, 5786, 2500);
+    counter("count3", 0, 1440, 3000);
+    counter("count4", 0, 7110, 3000);
+});
+    var i = 0;
+    flag = false;
+window.onload = function() {
+    var button = document.getElementById("musi");
+    button.addEventListener("click", function() {
+      i = i+1;
+        if(i==2) {
+            i = 0;
+            flag = !flag;
+        }
+        if(flag == true) {
+             audio.play();
+        } else {
+            audio.pause();
+        }
+    });
+  };
+    document.addEventListener('keydown', handleKeyPress);
+
+    // Event handler function for keydown event
+    function handleKeyPress(event) {
+      // Access the pressed key through the event object
+      var key = event.key;
+        if(key === 'V' || key === 'v') {
+            if(flag == true) {
+                audio.pause();
+            } else if(flag == false) {
+                audio.play();
+            }
+        }
+    }
+// Our Partner
+var swiper = new Swiper(".our-partner", {
+    slidesPerView: 5,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+        delay: 2000,
+    },
+    breakpoints: {
+        '991': {
+            slidesPerView: 5,
+            spaceBetween: 10,
+        },
+        '767': {
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
+        '320': {
+            slidesPerView: 2,
+            spaceBetween: 8,
+        },
+
+
+    },
+});
+
+const bookingForm = document.getElementById('bookingForm');
+const checkInDateInput = document.getElementById('checkInDate');
+const checkOutDateInput = document.getElementById('checkOutDate');
+
+// Set min attribute to restrict past dates
+const today = new Date().toISOString().split('T')[0];
+checkInDateInput.min = today;
+checkOutDateInput.min = today;
+
+bookingForm.addEventListener('submit', e => {
+    e.preventDefault();
+    
+    const checkInDate = checkInDateInput.value;
+    const checkOutDate = checkOutDateInput.value;
+    const adultsCount = document.getElementById('adultsCount').value;
+    const childrenCount = document.getElementById('childrenCount').value;
+    
+    // Perform availability check or display message
+    if (checkAvailability(checkInDate, checkOutDate)) {
+        displayMessage('Rooms are available!');
+    } else {
+        displayMessage('Rooms are not available!');
+    }
+});
+
+function checkAvailability(checkInDate, checkOutDate) {
+    // Perform your availability check logic here
+    // Return true if rooms are available, false otherwise
+    // You can customize this function based on your requirements
+    // For now, it returns a random boolean value
+    return Math.random() < 0.5;
+}
+
+function displayMessage(message) {
+    // Display the message to the user
+    // You can customize this function to show the message in a specific way
+    alert(message);
+}
+    /*Jquery*/
+    $(document).ready(function() {
+
+		var element = $(".fixed_block");
+		var height_el = element.offset().top;
+		
+		$(".fixed_block_position").css({
+			"width": element.outerWidth(),
+			"height": element.outerHeight()
+		});
+
+		$(window).scroll(function() {
+			
+			if($(window).scrollTop() > height_el) {
+			
+				element.addClass("fixed");
+
+			} else {
+			
+				element.removeClass("fixed");
+
+			}
+
+		});
+
+	});
+    
+
+</script>
+</html>
